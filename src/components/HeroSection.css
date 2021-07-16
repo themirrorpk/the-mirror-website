@@ -6,10 +6,11 @@ video {
   z-index: -1;
 }
 .hero-container {
-  background: url("https://homepages.cae.wisc.edu/~ece533/images/mountain.png")
-    center center/cover no-repeat;
-  /* background: url("../../public/images/img-home.jpg") center center/cover
-    no-repeat; */
+  background: url("./images/img-home.jpg") center center/cover no-repeat;
+  /* background: url("https://homepages.cae.wisc.edu/~ece533/images/girl.png")
+    center center/cover no-repeat; */
+  /* https://homepages.cae.wisc.edu/~ece533/images/monarch.png */
+  /* https://homepages.cae.wisc.edu/~ece533/images/girl.png */
   height: 100vh;
   width: 100%;
   display: flex;
