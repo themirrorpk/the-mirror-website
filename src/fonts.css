@@ -1,0 +1,4 @@
+@font-face {
+  font-family: "Playfair";
+  src: local("Playfair"), url("./fonts/PlayfairDisplay.ttf") format("ttf");
+}

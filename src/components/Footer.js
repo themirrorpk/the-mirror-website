@@ -64,7 +64,7 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               The Mirror
-              <i class="fab fa-typo3" />
+              {/* <i class="fab fa-typo3" /> */}
             </Link>
           </div>
           <small class="website-rights">The Mirror © 2021</small>

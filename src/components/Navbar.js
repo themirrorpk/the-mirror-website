@@ -24,7 +24,8 @@ function Navbar() {
       <nav className="navbar">
         <div class="navbar-container">
           <Link to="/" className="navbar-logo">
-            The Mirror <i class="fab fa-typo3"></i>
+            The Mirror
+             {/* <i class="fab fa-typo3"></i> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
