@@ -39,10 +39,8 @@
   /* margin-top: -6px; */
   /* overflow:scroll; */
   /* overflow: hidden; */
-} */
-
-
-.fa-typo3 {
+}
+*/ .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
 }
@@ -76,6 +74,7 @@
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
+  color: white;
 }
 
 .fa-bars {

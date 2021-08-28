@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import "./Gallery.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CloseIcon from "@material-ui/icons/Close";
 
 //COUS 1
 import img1 from "../images/COUS1/one.jpg";
@@ -44,6 +45,7 @@ import img29 from "../images/SocialAwareness/4.jpg";
 import img30 from "../images/SocialAwareness/5.jpg";
 import img31 from "../images/SocialAwareness/6.jpg";
 import img32 from "../images/SocialAwareness/7.jpg";
+import { useState } from "react";
 
 export default function Gallery() {
   let data = [
@@ -208,12 +210,27 @@ export default function Gallery() {
       caption: "Colours of our Struggle",
     },
   ];
+  const [model, setmodel] = useState(false);
+  const [tempimgsrc, settempimgsrc] = useState("");
+
+  const getimg = (imgsrc) => {
+    settempimgsrc(imgsrc);
+    setmodel(true);
+  };
   return (
     <>
+      <div className={model ? "model open" : "model"}>
+        <img src={tempimgsrc} alt="" />
+        <CloseIcon onClick={() => setmodel(false)} />
+      </div>
       <div className="gallery">
         {data.map((item, index) => {
           return (
-            <div className="pics" key={index}>
+            <div
+              className="pics"
+              key={index}
+              onClick={() => getimg(item.imgSrc)}
+            >
               <figure className="position-relative">
                 <img src={item.imgSrc} alt="" style={{ width: "100%" }} />
                 <figcaption>{item.caption}</figcaption>
