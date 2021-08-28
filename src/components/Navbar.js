@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Navbar.css";
+import companyLogo from './images/logoimage.jpg';
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -24,18 +25,15 @@ function Navbar() {
       <nav className="navbar">
         <div class="navbar-container">
           <Link to="/" className="navbar-logo">
+          <img className="image" src={companyLogo} height={80} width={100} style={{paddingRight: '25px', overflow: 'hidden', marginTop: '-20px'}} alt="MirrorPK Logo"/>
             The Mirror
              {/* <i class="fab fa-typo3"></i> */}
+             
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About Us
@@ -44,6 +42,21 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/blogs" className="nav-links" onClick={closeMobileMenu}>
                 Blogs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/impact" className="nav-links" onClick={closeMobileMenu}>
+                Our Impact
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="/gallery"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Event Gallery
               </Link>
             </li>
 
@@ -57,17 +70,8 @@ function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item">
-              <Link
-                to="/donate"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Donate Now
-              </Link>
-            </li>
+           
           </ul>
-          {button && <Button buttonStyle="btn--outline"> DONATE</Button>}
         </div>
       </nav>
     </>

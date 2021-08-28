@@ -19,20 +19,28 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
+  max-width: 100%;
 }
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 30px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   font-family: Playfair;
-}
+  overflow: hidden;
+  /* width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
+  /* margin-top: -6px; */
+  /* overflow:scroll; */
+  /* overflow: hidden; */
+} */
+
 
 .fa-typo3 {
   margin-left: 0.5rem;
