@@ -45,14 +45,20 @@ import img29 from "../images/SocialAwareness/4.jpg";
 import img30 from "../images/SocialAwareness/5.jpg";
 import img31 from "../images/SocialAwareness/6.jpg";
 import img32 from "../images/SocialAwareness/7.jpg";
+
+// import img33 from "../images/LuckyOne/1.NEF";
+// import img34 from "../images/SocialAwareness/7.jpg";
+// import img35 from "../images/SocialAwareness/7.jpg";
+
 import { useState } from "react";
+import Footer from "../Footer";
 
 export default function Gallery() {
   let data = [
     {
       id: 1,
       imgSrc: img1,
-      caption: "Colours of our Struggle",
+      caption: "Colours of our Struggle ",
     },
     {
       id: 2,
@@ -112,103 +118,104 @@ export default function Gallery() {
     {
       id: 13,
       imgSrc: img13,
-      caption: "Colours of our Struggle",
+      caption: "BGSP",
     },
     {
       id: 14,
       imgSrc: img14,
-      caption: "Colours of our Struggle",
+      caption: "BGSP",
     },
     {
       id: 15,
       imgSrc: img15,
-      caption: "Colours of our Struggle",
+      caption: "BGSP",
     },
     {
       id: 16,
       imgSrc: img16,
-      caption: "Colours of our Struggle",
+      caption: "BGSP",
     },
     {
       id: 17,
       imgSrc: img17,
-      caption: "Colours of our Struggle",
+      caption: "BGSP",
     },
     {
       id: 18,
       imgSrc: img18,
-      caption: "Colours of our Struggle",
+      caption: "Internship'20",
     },
     {
       id: 19,
       imgSrc: img19,
-      caption: "Colours of our Struggle",
+      caption: "Internship'20",
     },
     {
       id: 20,
       imgSrc: img20,
-      caption: "Colours of our Struggle",
+      caption: "Internship'21",
     },
     {
       id: 21,
       imgSrc: img21,
-      caption: "Colours of our Struggle",
+      caption: "Internship'21",
     },
     {
       id: 22,
       imgSrc: img22,
-      caption: "Colours of our Struggle",
+      caption: "Internship'21",
     },
     {
       id: 23,
       imgSrc: img23,
-      caption: "Colours of our Struggle",
+      caption: "Internship'21",
     },
     {
       id: 24,
       imgSrc: img24,
-      caption: "Colours of our Struggle",
+      caption: "Internship'21",
     },
     {
       id: 25,
       imgSrc: img25,
-      caption: "Colours of our Struggle",
+      caption: "Internship'21",
     },
     {
       id: 26,
       imgSrc: img26,
-      caption: "Colours of our Struggle",
+      caption: "Social Awareness Sessions",
     },
     {
       id: 27,
       imgSrc: img27,
-      caption: "Colours of our Struggle",
+      caption: "Social Awareness Sessions",
     },
     {
       id: 28,
       imgSrc: img28,
-      caption: "Colours of our Struggle",
+      caption: "Social Awareness Sessions",
     },
     {
       id: 29,
       imgSrc: img29,
-      caption: "Colours of our Struggle",
+      caption: "Social Awareness Sessions",
     },
     {
       id: 30,
       imgSrc: img30,
-      caption: "Colours of our Struggle",
+      caption: "Social Awareness Sessions",
     },
     {
       id: 31,
       imgSrc: img31,
-      caption: "Colours of our Struggle",
+      caption: "Social Awareness Sessions",
     },
     {
       id: 32,
       imgSrc: img32,
-      caption: "Colours of our Struggle",
+      caption: "Social Awareness Sessions",
     },
+
   ];
   const [model, setmodel] = useState(false);
   const [tempimgsrc, settempimgsrc] = useState("");
@@ -219,6 +226,7 @@ export default function Gallery() {
   };
   return (
     <>
+    <h1 className="blogs"> Events Gallery </h1>
       <div className={model ? "model open" : "model"}>
         <img src={tempimgsrc} alt="" />
         <CloseIcon onClick={() => setmodel(false)} />
@@ -239,6 +247,7 @@ export default function Gallery() {
           );
         })}
       </div>
+      <Footer />
     </>
   );
 }

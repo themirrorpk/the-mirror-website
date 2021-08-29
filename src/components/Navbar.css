@@ -33,6 +33,7 @@
   align-items: center;
   font-family: Playfair;
   overflow: hidden;
+  margin-bottom: 20px;
   /* width: 100px;
   height: 100px;
   /* border-radius: 50%; */
@@ -40,6 +41,9 @@
   /* overflow:scroll; */
   /* overflow: hidden; */
 }
+/* .navbar-logo > div {
+  margin-bottom: 20px;
+} */
 */ .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
@@ -70,7 +74,10 @@
   margin-top: -5px;
   margin-bottom: 10px;
 }
-
+.navbar-logo:hover {
+  transition: all 0.2s ease-out;
+  color: white;
+}
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
@@ -172,4 +179,9 @@
     color: #242424;
     transition: 250ms;
   }
+  /* .navbar-logo:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  } */
 }

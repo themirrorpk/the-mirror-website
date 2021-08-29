@@ -25,8 +25,9 @@ function Navbar() {
       <nav className="navbar">
         <div class="navbar-container">
           <Link to="/" className="navbar-logo">
-          <img className="image" src={companyLogo} height={80} width={100} style={{paddingRight: '25px', overflow: 'hidden', marginTop: '-20px'}} alt="MirrorPK Logo"/>
-            The Mirror
+          <img className="image" src={companyLogo} height={60} width={100} style={{paddingRight: '25px', overflow: 'hidden', marginTop: '-20px'}} alt="MirrorPK Logo"/>
+            <div> The Mirror </div>
+            
              {/* <i class="fab fa-typo3"></i> */}
              
           </Link>
