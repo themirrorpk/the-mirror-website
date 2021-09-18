@@ -1,7 +1,26 @@
 .about {
-  font-family: Playfair;
+  /* font-family: OpenSans; */
+  font-size: 5rem;
+  color: white;
+  margin: 29px;
+}
+.about2 {
+  /* font-family: OpenSans; */
   font-size: 4rem;
-  color: gray;
+  color: grey;
+  margin: 29px;
+}
+.hero {
+  /* background: url("./") center center/cover no-repeat; */
+  background: #ea9999;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
 }
 .container {
   margin: 29px;
@@ -10,12 +29,22 @@
 .mission {
   text-align: center;
   font-family: Lato;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 24px;
+  /* text-justify: auto; */
 }
+/* .value-cont {
+  background: #ea9999;
+  border-radius: 1%;
+} */
 .values {
   margin: 20px;
+  padding: 20px;
   font-family: Playfair;
   font-size: 4rem;
   color: #ea9999;
+  letter-spacing: 1px;
 }
 .section {
   margin-top: -50px;
@@ -49,16 +78,15 @@
   text-transform: capitalize;
   letter-spacing: 2px;
 }
-.heading-f{
-    text-align: left;
+.heading-f {
+  text-align: left;
 }
-span{
-    color: #931b0b ;
+span {
+  color: #931b0b;
 }
-.About-text text{
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-    
+.About-text text {
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
 }

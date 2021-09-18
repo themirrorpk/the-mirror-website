@@ -6,3 +6,8 @@
   font-family: "Lato";
   src: local("Lato"), url("./fonts/Lato-Light.ttf") format("ttf");
 }
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("./fonts/OpenSans-Semibold.ttf") format("ttf");
+}

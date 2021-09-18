@@ -4,13 +4,19 @@ import "./About.css";
 import founders from "../images/team/Founders.jpeg";
 import mahnoor from "../images/team/Mahnoor-GS.jpg";
 import maham from "../images/team/Maham- AC.jpg";
+import shahrukh from "../images/team/shahrukh2.jpeg";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "../Footer";
 
 export default function About() {
   return (
     <>
-      <h1 className="about"> Our Mission </h1>
+    {/* <HeroSection/> */}
+    <div className='hero'>
+    <h1 className="about"> Our Mission </h1>
+      </div>
+     
       <div className="container">
         <text className="mission">
           Our mission is to tackle gender-based violence prevalent in society
@@ -20,9 +26,9 @@ export default function About() {
           fundraisers, and intermediary legal aid through pro-bono lawyers.
         </text>
         <div className="value-cont">
-          <h1 className="values">equality . diversity . inclusion</h1>
+          <h1 className="values">    equality  .  diversity  .   inclusion   </h1>
         </div>
-        <h1 className="about"> The Team  </h1>
+        <h1 className="about2"> The Team  </h1>
         <div className="section">
           <div className="founders">
             <img src={founders} alt="Founders" />
@@ -57,7 +63,7 @@ export default function About() {
                 <div class="testimonial mb-5">
                   <div class="avatar mx-auto">
                     <img
-                      src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                      src={shahrukh}
                       class="rounded-circle z-depth-1 img-fluid" alt="shahrukh"/>
                   </div>
                   <h4 class="font-weight-bold dark-grey-text mt-4">
@@ -82,7 +88,7 @@ export default function About() {
                     />
                   </div>
                   <h4 class="font-weight-bold dark-grey-text mt-4">Mahnoor Sarwar</h4>
-                  <h6 class="font-weight-bold blue-text my-3">GS</h6>
+                  <h6 class="font-weight-bold blue-text my-3">General Secretary </h6>
                   <p class="font-weight-normal dark-grey-text">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid commodi.
@@ -101,7 +107,7 @@ export default function About() {
                   <h4 class="font-weight-bold dark-grey-text mt-4">
                   Maham Fazal
                   </h4>
-                  <h6 class="font-weight-bold blue-text my-3">AC</h6>
+                  <h6 class="font-weight-bold blue-text my-3">Administrative Coordinator</h6>
                   <p class="font-weight-normal dark-grey-text">
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis praesentium voluptatum deleniti atque
@@ -112,7 +118,9 @@ export default function About() {
             </div>
           </div>
         </section>
+        
       </div>
+      <Footer/>
     </>
   );
 }
