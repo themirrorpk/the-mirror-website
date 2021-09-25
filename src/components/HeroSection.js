@@ -2,13 +2,14 @@ import React from 'react'
 import { Button } from './Button'
 import'./HeroSection.css'
 import '../App.css'
-
+import vid from "./images/mirrorTrailer.mp4";
 
 function HeroSection() {
     return (
         <div className='hero-container'>
             {/* <image src="logo512.png"/> */}
-        {/* <video src ="/videos/video-2.mp4" autoPlay loop muted /> */}
+        <video src ={vid} autoPlay loop muted />
+        
         <h1> OUR STORY</h1>
         <p>What are you waiting for</p>
         <div className="hero-btns">
