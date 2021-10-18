@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div class="navbar-container">
+        <div className="navbar-container">
           <Link to="/" className="navbar-logo">
             <img
               className="image"

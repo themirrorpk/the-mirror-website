@@ -8,6 +8,7 @@ import Blogs from "./Pages/Blogs";
 import Donate from "./Pages/Donate";
 import Impact from "./Pages/Impact";
 import Gallery from "./Pages/Gallery";
+import Single from "./Pages/Single";
 function App() {
   return (
     <>
@@ -21,6 +22,9 @@ function App() {
           <Route path="/impact" component={Impact} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/donate" component={Donate} />
+          <Route path="/post/:id">
+            <Single />
+          </Route>
         </Switch>
       </Router>
     </>
