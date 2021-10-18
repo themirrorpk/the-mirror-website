@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Pages/Home";
-import About from "./components/Pages/About";
-import Contact from "./components/Pages/Contact";
-import Blogs from "./components/Pages/Blogs";
-import Donate from "./components/Pages/Donate";
-import Impact from "./components/Pages/Impact";
-import Gallery from "./components/Pages/Gallery";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Blogs from "./Pages/Blogs";
+import Donate from "./Pages/Donate";
+import Impact from "./Pages/Impact";
+import Gallery from "./Pages/Gallery";
 function App() {
   return (
     <>

@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Navbar.css";
-import companyLogo from './images/logoimage.jpg';
+import companyLogo from "../images/logoimage.jpg";
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   const showButton = () => {
@@ -25,11 +27,21 @@ function Navbar() {
       <nav className="navbar">
         <div class="navbar-container">
           <Link to="/" className="navbar-logo">
-          <img className="image" src={companyLogo} height={60} width={100} style={{paddingRight: '25px', overflow: 'hidden', marginTop: '-20px'}} alt="MirrorPK Logo"/>
+            <img
+              className="image"
+              src={companyLogo}
+              height={60}
+              width={100}
+              style={{
+                paddingRight: "25px",
+                overflow: "hidden",
+                marginTop: "-20px",
+              }}
+              alt="MirrorPK Logo"
+            />
             <div> The Mirror </div>
-            
-             {/* <i class="fab fa-typo3"></i> */}
-             
+
+            {/* <i class="fab fa-typo3"></i> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -46,7 +58,11 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/impact" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/impact"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Our Impact
               </Link>
             </li>
@@ -70,8 +86,6 @@ function Navbar() {
                 Contact Us
               </Link>
             </li>
-
-           
           </ul>
         </div>
       </nav>

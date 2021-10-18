@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css";
+import "../App.css";
 import "./Gallery.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CloseIcon from "@material-ui/icons/Close";
@@ -51,7 +51,7 @@ import img32 from "../images/SocialAwareness/7.jpg";
 // import img35 from "../images/SocialAwareness/7.jpg";
 
 import { useState } from "react";
-import Footer from "../Footer";
+import Footer from "../components/Footer";
 
 export default function Gallery() {
   let data = [
@@ -215,7 +215,6 @@ export default function Gallery() {
       imgSrc: img32,
       caption: "Social Awareness Sessions",
     },
-
   ];
   const [model, setmodel] = useState(false);
   const [tempimgsrc, settempimgsrc] = useState("");
@@ -226,7 +225,7 @@ export default function Gallery() {
   };
   return (
     <>
-    <h1 className="blogs"> Events Gallery </h1>
+      <h1 className="blogs"> Events Gallery </h1>
       <div className={model ? "model open" : "model"}>
         <img src={tempimgsrc} alt="" />
         <CloseIcon onClick={() => setmodel(false)} />
