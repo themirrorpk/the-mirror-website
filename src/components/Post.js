@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import "./Post.css";
-import nextId from "react-id-generator";
 
-export default function Post({ img }) {
+export default function Post({ img, title }) {
   return (
     <div className="post">
       <img className="postImg" src={img} alt="" />
       <div className="postInfo">
         <span className="postTitle">
-          <Link to={`/post/${nextId()}`} className="link">
-            Lorem ipsum dolor sit amet
+          <Link to={"/posts/abc"} className="link">
+            {{ title }}
           </Link>
         </span>
         <hr />
