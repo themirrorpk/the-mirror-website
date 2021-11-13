@@ -42,6 +42,14 @@ video {
 .fa-play-circle {
   margin: left 4px;
 }
+.linked{
+  color: #fff;
+}
+.linked:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+  color: #000000;
+}
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
