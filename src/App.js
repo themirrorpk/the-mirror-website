@@ -8,9 +8,12 @@ import Blogs from "./Pages/Blogs";
 import Donate from "./Pages/Donate";
 import Impact from "./Pages/Impact";
 import Gallery from "./Pages/Gallery";
-import Single from "./Pages/Single";
 import ChildMarriage from "./Pages/BlogPages/ChildMarriage";
 import MeToo from "./Pages/BlogPages/MeToo";
+import Misogyny from "./Pages/BlogPages/Misogyny";
+import PakPolice from "./Pages/BlogPages/PakPolice";
+import ThreatsChildren from "./Pages/BlogPages/ThreatsChildren";
+
 function App() {
   return (
     <>
@@ -26,6 +29,9 @@ function App() {
           <Route path="/donate" component={Donate} />
           <Route path="/ChildMarriage" component={ChildMarriage}/>
           <Route path="/MeToo" component={MeToo}/>
+          <Route path="/Misogyny" component={Misogyny}/>
+          <Route path="/PakPolice" component={PakPolice}/>
+          <Route path="/ThreatsChildren" component={ThreatsChildren}/>
         </Switch>
       </Router>
     </>
