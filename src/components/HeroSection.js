@@ -21,7 +21,7 @@ function HeroSection() {
       <p>What are you waiting for</p>
       <div className="hero-btns">
       
-        <Button
+        {/* <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
@@ -29,15 +29,32 @@ function HeroSection() {
             <Link to="/donate" className="linked"  onClick={closeMobileMenu}>
                  Donate
               </Link>
-        </Button>
-        <Button
+        </Button> */}
+       
+        <div>
+
+                <Link to="/donate"><button type="button" class="btn btn-outline-light">
+              Donate
+            </button>
+            </Link>
+
+             {/* <Link to="/donate" className='yt'> */}
+             <a target="_blank" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" className='yt'>
+        <button type="button" class="btn btn-light">
+             YouTube <i className="far fa-play-circle" />
+            </button>
+            </a>
+            {/* </Link> */}
+            </div>
+            
+        {/* <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
            onClick={console.log('hey')}
         >
           YouTube <i className="far fa-play-circle" />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

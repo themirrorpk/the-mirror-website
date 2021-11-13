@@ -50,6 +50,10 @@ video {
   transition: all 0.2s ease-out;
   color: #000000;
 }
+.yt{
+  margin-left:10px;
+  /* padding: 10px; */
+}
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;

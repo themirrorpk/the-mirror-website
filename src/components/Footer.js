@@ -20,7 +20,13 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+              <a target="_blank" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" className='yt'>
+              <button type="button" class="btn btn-outline-light">
+              Subscribe
+            </button>
+            </a>
+            
+            {/* <Button buttonStyle="btn--outline">Subscribe</Button> */}
           </form>
         </div>
       </section>
@@ -52,10 +58,13 @@ function Footer() {
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+
+             <a target="_blank" href="https://instagram.com/themirrorpk/" >Instagram</a>
+             <a target="_blank" href="https://www.facebook.com/themirrorpk/" >Facebook</a>
+             <a target="_blank" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" >Youtube</a>
+             <a target="_blank" href="https://www.twitter.com/themirrorpk" >Twitter</a>
+             <a target="_blank" href="https://www.linkedin.com/company/the-mirror-pk" >Linked-In</a>
+
           </div>
         </div>
       </div>
