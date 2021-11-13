@@ -9,6 +9,8 @@ import Donate from "./Pages/Donate";
 import Impact from "./Pages/Impact";
 import Gallery from "./Pages/Gallery";
 import Single from "./Pages/Single";
+import ChildMarriage from "./Pages/BlogPages/ChildMarriage";
+import MeToo from "./Pages/BlogPages/MeToo";
 function App() {
   return (
     <>
@@ -22,9 +24,8 @@ function App() {
           <Route path="/impact" component={Impact} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/donate" component={Donate} />
-          <Route path="/post/:id">
-            <Single />
-          </Route>
+          <Route path="/ChildMarriage" component={ChildMarriage}/>
+          <Route path="/MeToo" component={MeToo}/>
         </Switch>
       </Router>
     </>

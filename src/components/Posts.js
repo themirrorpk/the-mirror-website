@@ -1,6 +1,7 @@
 import Post from "./Post";
 import "./Posts.css";
-// import img from "../../public/images/childmarriage.jpeg";
+
+
 export default function Posts() {
   return (
     <div className="posts">
@@ -9,30 +10,35 @@ export default function Posts() {
           "https://im.idiva.com/content/2020/Apr/Rajasthan-child-marriage-0-cases-iDiva-2_5ea69be1d2f06.jpg"
         }
         title="Child Marriages in Pakistan"
+        id = "ChildMarriage"
       />
       <Post
         img={
           "http://blogs.dunyanews.tv/wp-content/uploads/2021/03/aurat-march.jpg"
         }
         title="From Zainab till Meesha Shafi - The Rise of #MeToo"
+        id = "MeToo"
       />
       <Post
         img={
           "https://kursiv.kz/sites/default/files/styles/_xlarge_1280x720/public/2021-08/image.jpg?itok=sAprLRcb"
         }
         title="Threats to Children"
+        id = "ThreatsChildren"
       />
       <Post
         img={
           "https://alertpak.files.wordpress.com/2011/03/peshawarpolice-reut543-11.jpg?w=584"
         }
         title="Pakistani Policemen and the Case of Failed Protection"
+        id = "PakPolice"
       />
       <Post
         img={
           "https://avatars.mds.yandex.net/get-images-cbir/1704084/jXZb6xEsiw8n9WlLl1cXAA5990/ocr"
         }
         title="Khalil ur Rehman Qamar: The face of blatant misogyny"
+        id = "Misogyny"
       />
 
       
