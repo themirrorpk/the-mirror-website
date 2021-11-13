@@ -4,11 +4,9 @@
 }
 
 .headerImg {
-  /* opacity: 0.8; */
   width: 100%;
   height: 450px;
-  /* margin-top: 80px; */
-  object-fit: cover;
+  object-fit:cover;
 }
 
 .headerTitles {
@@ -17,7 +15,6 @@
   align-items: center;
   font-family: "Lora", serif;
   color: #444;
-  /* top: 50%; */
 }
 
 .headerTitleSm {

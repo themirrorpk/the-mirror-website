@@ -8,7 +8,7 @@ export default function Post({ img, title }) {
       <div className="postInfo">
         <span className="postTitle">
           <Link to={"/posts/abc"} className="link">
-            {{ title }}
+            {title}
           </Link>
         </span>
         <hr />
