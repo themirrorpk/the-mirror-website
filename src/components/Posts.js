@@ -28,6 +28,13 @@ export default function Posts() {
         }
         title="Pakistani Policemen and the Case of Failed Protection"
       />
+      <Post
+        img={
+          "https://avatars.mds.yandex.net/get-images-cbir/1704084/jXZb6xEsiw8n9WlLl1cXAA5990/ocr"
+        }
+        title="Khalil ur Rehman Qamar: The face of blatant misogyny"
+      />
+
       
       </div>
   );
