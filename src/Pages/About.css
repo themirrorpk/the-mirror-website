@@ -2,13 +2,15 @@
   /* font-family: OpenSans; */
   font-size: 5rem;
   color: white;
-  margin: 29px;
+  /* margin: 29px */
+  margin-left: 10%;
 }
 .about2 {
   /* font-family: OpenSans; */
   font-size: 4rem;
   color: grey;
-  margin: 29px;
+  /* margin: 29px; */
+  margin-left: 10%;
 }
 .hero {
   /* background: url("./") center center/cover no-repeat; */
@@ -24,27 +26,32 @@
 }
 .container {
   margin: 29px;
-  justify-content: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .mission {
-  text-align: center;
+  text-align: justify;
   font-family: Lato;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 24px;
-  /* text-justify: auto; */
+  /* width: 70%; */
+  /* margin-left: 20%; */
 }
 /* .value-cont {
   background: #ea9999;
   border-radius: 1%;
 } */
 .values {
-  margin: 20px;
+  /* margin: 20px; */
   padding: 20px;
   font-family: Playfair;
   font-size: 4rem;
   color: #ea9999;
   letter-spacing: 1px;
+  text-align: center;
+  margin-left: 10%;
 }
 .section {
   margin-top: -50px;
@@ -84,7 +91,7 @@
 span {
   color: #931b0b;
 }
-.About-text text {
+.About-text p {
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;

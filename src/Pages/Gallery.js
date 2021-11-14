@@ -225,7 +225,7 @@ export default function Gallery() {
   };
   return (
     <>
-      <h1 className="blogs"> Events Gallery </h1>
+      <h1 className="MainHeading"> EVENTS GALLERY </h1>
       <div className={model ? "model open" : "model"}>
         <img src={tempimgsrc} alt="" />
         <CloseIcon onClick={() => setmodel(false)} />

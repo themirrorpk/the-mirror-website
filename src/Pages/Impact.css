@@ -42,9 +42,9 @@
   /* margin-left: 40px; */
   /* margin: 10%; */
 }
-.headerImg {
-  width: 50%;
-  height: 50%;
+.headerim {
+  /* width: 50%;
+  height: 50%; */
   margin-top: 0px;
   object-fit: cover;
 }

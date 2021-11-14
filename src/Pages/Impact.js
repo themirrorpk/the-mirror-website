@@ -16,7 +16,7 @@ export default function Impact() {
       <div class="row text-center">
         <div className="container">
           <div>
-          <img className="headerImg" src={image} alt="" />
+          <img className="headerim" src={image} alt="" />
             {/* <img src="../images"></img> */}
           </div>
           {/* <div>

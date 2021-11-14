@@ -10,7 +10,8 @@ function Footer() {
           Join the Adventure newsletter to receive our best vacation deals
         </p> */}
         <p className="footer-subscription-text">
-          You can unsubscribe at any time.
+          Subscribe to our special newsletter 'Reflections' today and <br />
+          get to know about the major projects The Mirror is working on.
         </p>
         <div className="input-areas">
           <form>
@@ -20,12 +21,12 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-              <a target="_blank" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" className='yt'>
+            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" className='yt'>
               <button type="button" class="btn btn-outline-light">
-              Subscribe
-            </button>
+                Subscribe
+              </button>
             </a>
-            
+
             {/* <Button buttonStyle="btn--outline">Subscribe</Button> */}
           </form>
         </div>
@@ -59,11 +60,11 @@ function Footer() {
           <div className="footer-link-items">
             <h2>Social Media</h2>
 
-             <a target="_blank" href="https://instagram.com/themirrorpk/" >Instagram</a>
-             <a target="_blank" href="https://www.facebook.com/themirrorpk/" >Facebook</a>
-             <a target="_blank" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" >Youtube</a>
-             <a target="_blank" href="https://www.twitter.com/themirrorpk" >Twitter</a>
-             <a target="_blank" href="https://www.linkedin.com/company/the-mirror-pk" >Linked-In</a>
+            <a target="_blank" rel="noreferrer" href="https://instagram.com/themirrorpk/" >Instagram</a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/themirrorpk/" >Facebook</a>
+            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" >Youtube</a>
+            <a target="_blank" rel="noreferrer" href="https://www.twitter.com/themirrorpk" >Twitter</a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/the-mirror-pk" >Linked-In</a>
 
           </div>
         </div>
@@ -77,48 +78,6 @@ function Footer() {
             </Link>
           </div>
           <small className="website-rights">The Mirror © 2021</small>
-          <div className="social-icons">
-            <Link
-              className="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i className="fab fa-facebook-f" />
-            </Link>
-            <Link
-              className="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i className="fab fa-instagram" />
-            </Link>
-            <Link
-              className="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i className="fab fa-youtube" />
-            </Link>
-            <Link
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i className="fab fa-twitter" />
-            </Link>
-            <Link
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i className="fab fa-linkedin" />
-            </Link>
-          </div>
         </div>
       </section>
     </div>

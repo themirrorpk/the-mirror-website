@@ -14,13 +14,12 @@ function HeroSection() {
   const closeMobileMenu = () => setClick(false);
   return (
     <div className="hero-container">
-      {/* <image src="logo512.png"/> */}
       <video src={vid} autoPlay loop muted />
 
-      <h1> OUR STORY</h1>
-      <p>What are you waiting for</p>
+      <h1> THE MIRROR PK </h1>
+      <p>Non-Governmental Organization</p>
       <div className="hero-btns">
-      
+
         {/* <Button
           className="btns"
           buttonStyle="btn--outline"
@@ -30,23 +29,25 @@ function HeroSection() {
                  Donate
               </Link>
         </Button> */}
-       
+
         <div>
 
-                <Link to="/donate"><button type="button" class="btn btn-outline-light">
+          <Link to="/donate">
+            <button type="button" class="btn btn-light" style={{ "width": "200px", "height": "80px" }}>
               Donate
             </button>
-            </Link>
+          </Link>
 
-             {/* <Link to="/donate" className='yt'> */}
-             <a target="_blank" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" className='yt'>
-        <button type="button" class="btn btn-light">
-             YouTube <i className="far fa-play-circle" />
+          {/* <Link to="/donate" className='yt'> */}
+          <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" className='yt'>
+            {/* <br /> */}
+            <button style={{ "width": "200px", "height": "80px" }} type="button" class="btn btn-light">
+              YouTube <i className="far fa-play-circle" />
             </button>
-            </a>
-            {/* </Link> */}
-            </div>
-            
+          </a>
+          {/* </Link> */}
+        </div>
+
         {/* <Button
           className="btns"
           buttonStyle="btn--primary"

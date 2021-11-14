@@ -1,0 +1,38 @@
+.WhyLogo {
+  background-color: aliceblue;
+  width: 1130px;
+  max-width: 95%;
+  margin: 20px auto;
+  /* margin-left: 20px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.WhyLogo img {
+  width: 40%;
+  height: 40%;
+  /* margin-right: 50px; */
+}
+
+.Why-text h3 {
+  text-align: left;
+  font-size: 40px;
+  margin-left: 20px;
+  color: #ea9999;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-right: 10px;
+
+}
+.Why-text p {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+  margin-left: 20px;
+  padding-right: 10px;
+  /* text-align: justify; */
+}
