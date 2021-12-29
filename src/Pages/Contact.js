@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./Contact.css";
+import Header from "../components/Header_contact";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../components/Footer";
@@ -9,9 +10,10 @@ export default function Contact() {
   return (
     <>
       {/* <HeroSection/> */}
-      <div className="hero">
+      {/* <div className="hero">
         <h1 className="about"> Contact Us </h1>
-      </div>
+      </div> */}
+      <Header />
       <div class="row text-center">
         <div className="container">
           <div>

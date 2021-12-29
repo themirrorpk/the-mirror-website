@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./Gallery.css";
+import Header from "../components/Header_event";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CloseIcon from "@material-ui/icons/Close";
 
@@ -225,7 +226,8 @@ export default function Gallery() {
   };
   return (
     <>
-      <h1 className="MainHeading"> EVENTS GALLERY </h1>
+      <Header />
+      {/* <h1 className="MainHeading"> EVENTS GALLERY </h1> */}
       <div className={model ? "model open" : "model"}>
         <img src={tempimgsrc} alt="" />
         <CloseIcon onClick={() => setmodel(false)} />
