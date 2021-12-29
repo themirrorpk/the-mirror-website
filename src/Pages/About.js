@@ -61,30 +61,7 @@ export default function About() {
                   Tourist Opinions
                 </h3> */}
               </div>
-              <div class="col-md-4">
-                <div class="testimonial mb-5">
-                  <div class="avatar mx-auto">
-                    <img
-                      src={shahrukh}
-                      class="rounded-circle z-depth-1 img-fluid"
-                      alt="shahrukh"
-                    />
-                  </div>
-                  <h4 class="font-weight-bold dark-grey-text mt-4">
-                    Shahrukh Khan
-                  </h4>
-                  <h6 class="font-weight-bold blue-text my-3">
-                    Managing Director
-                  </h6>
-                  {/* <p class="font-weight-normal dark-grey-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quod eos id officiis hic tenetur quae quaerat ad velit ab
-                    hic tenetur.
-                  </p> */}
-                </div>
-              </div>
-
-              <div class="col-md-4">
+              <div class="col-md-4" >
                 <div class="testimonial mb-5">
                   <div class="avatar mx-auto">
                     <img
@@ -99,13 +76,38 @@ export default function About() {
                   <h6 class="font-weight-bold blue-text my-3">
                     General Secretary{" "}
                   </h6>
-                  {/* <p class="font-weight-normal dark-grey-text">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid commodi.
-                  </p> */}
+                  <p class="font-weight-normal dark-grey-text" style={{ "font-size": "13px", "justify-content": " space-around" }}>
+                    My name is Mahnoor and I am the General Secretary at The Mirror.
+                    As a member of executive board, I am responsible to build synergy between three focal departments: legal and corporate affairs, finance and external relations.
+                    Working at The Mirror gives me a purpose and an opportunity of making a small impact and do good. The mission is something very close to my heart.
+                  </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" style={{ "padding-left": "20px" }}>
+                <div class="testimonial mb-5">
+                  <div class="avatar mx-auto">
+                    <img
+                      src={shahrukh}
+                      class="rounded-circle z-depth-1 img-fluid"
+                      alt="shahrukh"
+                    />
+                  </div>
+                  <h4 class="font-weight-bold dark-grey-text mt-4">
+                    Shahrukh Khan
+                  </h4>
+                  <h6 class="font-weight-bold blue-text my-3">
+                    Managing Director
+                  </h6>
+                  <p class="font-weight-normal dark-grey-text" style={{ "font-size": "12px", "justify-content": " space-around" }}>
+                    My name is Shahrukh Mujahid Khan and I am the Managing Director at The Mirror.
+                    Being a member of the Executive Board, it is my responsibility to ensure that the management of the entire Directorate, work in a close environment with the Presidents and guarantee that the operations within the organization are working in a streamlined manner; to name a few. It is to bridge gaps and bring about everyone in a unified whole, and make certain that the ideals of the organization are upheld to the highest virtue!
+                    {/* The Mirror presents an environment and atmosphere that encourages personal change, growth and successes. While it works to fight the good fight, it actively advocates to have every individual feel as comfortable, as welcomed, and as heard as one can be. It promotes the engagement in healthy discussions, dialogues and discourse necessary to allow and help people understand, learn and unlearn any toxic behavior or attitude in their personality. */}
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="col-md-4" style={{ "padding-left": "20px" }}>
                 <div class="testimonial mb-5">
                   <div class="avatar mx-auto">
                     <img
@@ -120,11 +122,9 @@ export default function About() {
                   <h6 class="font-weight-bold blue-text my-3">
                     Administrative Coordinator
                   </h6>
-                  {/* <p class="font-weight-normal dark-grey-text">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                    corrupti.
-                  </p> */}
+                  <p class="font-weight-normal dark-grey-text" style={{ "font-size": "13px", "justify-content": " space-around" }}>
+                    I am Maham Fazal, Administrative Coordinator at The Mirror. I have been working here for a year and a half and it has been a wonderful experience. I have learned so much throughout my journey here. The Mirror truly groomed me both professionally and personally. Currently I am looking over Human Resources, Publications, Photography and Social Media.
+                  </p>
                 </div>
               </div>
             </div>
