@@ -35,7 +35,7 @@ export default function Posts() {
       />
       <Post
         img={
-          "https://avatars.mds.yandex.net/get-images-cbir/1704084/jXZb6xEsiw8n9WlLl1cXAA5990/ocr"
+          "https://scontent.fkhi17-1.fna.fbcdn.net/v/t1.6435-9/75392805_1639346192867839_1952570232446910464_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeHCxV0I45o6ozhw6LG7pys3q3hmV01hDYqreGZXTWENipIyJ-VGtZRSNX85PKwYF8c7LB8AL7OSOxXWJyaNTYb7&_nc_ohc=USUVsESSOWYAX9mi4E4&_nc_ht=scontent.fkhi17-1.fna&oh=00_AT_ZH4KjoifcF-EOFDaYaLTI3kcCADEVJaOglTKM0dKaZA&oe=61F19355"
         }
         title="Khalil ur Rehman Qamar: The face of blatant misogyny"
         id = "Misogyny"
