@@ -21,7 +21,12 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" className='yt'>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA"
+              className="yt"
+            >
               <button type="button" class="btn btn-outline-light">
                 Subscribe
               </button>
@@ -33,7 +38,7 @@ function Footer() {
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div className="footer-link-items">
+          {/* <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/about">How it works</Link>
             <Link to="/">Testimonials</Link>
@@ -56,17 +61,47 @@ function Footer() {
             <Link to="/">Ambassadors</Link>
             <Link to="/">Agency</Link>
             <Link to="/">Influencer</Link>
-          </div>
-          <div className="footer-link-items">
+          </div> */}
+
+          {/* <div className="footer-link-items">
             <h2>Social Media</h2>
 
-            <a target="_blank" rel="noreferrer" href="https://instagram.com/themirrorpk/" >Instagram</a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/themirrorpk/" >Facebook</a>
-            <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA" >Youtube</a>
-            <a target="_blank" rel="noreferrer" href="https://www.twitter.com/themirrorpk" >Twitter</a>
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/the-mirror-pk" >Linked-In</a>
-
-          </div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://instagram.com/themirrorpk/"
+            >
+              Instagram
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/themirrorpk/"
+            >
+              Facebook
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA"
+            >
+              Youtube
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.twitter.com/themirrorpk"
+            >
+              Twitter
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/company/the-mirror-pk"
+            >
+              Linked-In
+            </a>
+          </div> */}
         </div>
       </div>
       <section className="social-media">
@@ -77,7 +112,94 @@ function Footer() {
               {/* <i class="fab fa-typo3" /> */}
             </Link>
           </div>
+
+          <div className="social-icons">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/themirrorpk/"
+            >
+              <i className="fab fa-facebook-f" />
+            </a>
+            {/* <Link
+              className="social-icon-link facebook"
+              to="/"
+              target="_blank"
+              aria-label="Facebook"
+              rel="noreferrer"
+              href="https://www.facebook.com/themirrorpk/"
+            >
+              <i className="fab fa-facebook-f" />
+            </Link> */}
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://instagram.com/themirrorpk/"
+            >
+              <i className="fab fa-instagram" />
+            </a>
+            {/* <Link
+              className="social-icon-link instagram"
+              to="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i className="fab fa-instagram" />
+            </Link> */}
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.youtube.com/channel/UClxfoeNh4uL3ghBRtJMJABA"
+            >
+              <i className="fab fa-youtube" />
+            </a>
+            {/* <Link
+              className="social-icon-link youtube"
+              to="/"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i className="fab fa-youtube" />
+            </Link> */}
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.twitter.com/themirrorpk"
+            >
+              <i className="fab fa-twitter" />
+            </a>
+            {/* <Link
+              className="social-icon-link twitter"
+              to="/"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i className="fab fa-twitter" />
+            </Link> */}
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/company/the-mirror-pk"
+            >
+              <i className="fab fa-linkedin" />
+            </a>
+            {/* <Link
+              className="social-icon-link twitter"
+              to="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i className="fab fa-linkedin" />
+            </Link> */}
+          </div>
           <small className="website-rights">The Mirror © 2021</small>
+        </div>
+        <div className="footer-subscription-text2">
+          <p>Developed by Maheen Khan & Rida Khan</p>
         </div>
       </section>
     </div>

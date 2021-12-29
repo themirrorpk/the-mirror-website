@@ -34,6 +34,13 @@
   margin-bottom: 24px;
   font-size: 20px;
 }
+.footer-subscription-text2 {
+  margin-bottom: 24px;
+  font-size: 15px;
+  color:rgb(255, 255, 255);
+  justify-content: center;
+  /* padding: 8px 20px; */
+}
 
 .footer-input {
   padding: 8px 20px;
@@ -112,13 +119,21 @@ Social Icons */
   width: 90%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
+  color: #fff;
 }
 
 .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* color: #fff; */
   width: 240px;
+  text-decoration: none;
+  color: inherit;
+}
+.social-icons i{
+  /* text-decoration: none; */
+color: #fff;
 }
 
 .social-logo {
