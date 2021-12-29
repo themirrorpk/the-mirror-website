@@ -30,12 +30,20 @@
 }
 
 .postTitle {
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  font-weight: 900;
+  /* font-family: "Josefin Sans", Arial, Helvetica, sans-serif; */
+  /* font-weight: 900; */
   margin-top: 15px;
   cursor: pointer;
-  color: black;
+  /* color: black; */
+  text-align: center;
+
+}
+.link {
+  color: #931b0b;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .postDate {

@@ -1,5 +1,5 @@
 import "./Header.css";
-import image from "../images/SocialAwareness/3.jpg";
+import image from "../images/SocialAwareness/3.edit.jpg";
 
 export default function Header() {
   return (

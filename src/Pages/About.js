@@ -18,7 +18,7 @@ export default function About() {
       </div> */}
       <Header />
 
-      <div className="container">
+      <div className="container_about">
         <p className="mission">
           Our mission is to tackle gender-based violence prevalent in society
           that impacts the lives of millions of women each year. Our primary
@@ -53,7 +53,7 @@ export default function About() {
           </div>
         </div>
         <section class="bg-light mt-5" id="team">
-          <div class="container">
+          <div class="container_ec">
             <div class="row text-center">
               <div class="col-sm-12 col-md-12 mb-4">
                 {/* <h3 class="text-center mt-4 text-secondary">
