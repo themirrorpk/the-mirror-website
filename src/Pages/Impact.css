@@ -41,10 +41,11 @@
   text-justify: center;
   /* margin-left: 40px; */
   /* margin: 10%; */
+  margin: 0%;
 }
 .headerim {
-  /* width: 50%;
-  height: 50%; */
+  width: 50%;
+  height: 50%;
   margin-top: 0px;
   object-fit: cover;
 }
