@@ -19,7 +19,7 @@ function Footer({ email, handleOnChangeEmail, handleSendEmail }) {
           get to know about the major projects The Mirror is working on.
         </p>
         {/* <div className="input-areas"> */}
-        <Form layout="inline" className="newsletter-form" action="javascript:void(0);" method="POST">
+        <Form layout="inline" className="newsletter-form" method="POST">
           <Form.Item>
             <Input onChange={({ target }) => handleOnChangeEmail(target.value)} prefix={<UserOutlined />} placeholder="Email Address" value={email} />
           </Form.Item>
