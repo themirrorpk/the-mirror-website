@@ -1,8 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
+// import { Button } from "./Button";
+import { Form, Input, Button } from "antd";
+import { UserOutlined } from '@ant-design/icons';
+import validator from "validator";
+
+
 import "./Footer.css";
-function Footer() {
+function Footer({ email, handleOnChangeEmail, handleSendEmail }) {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
@@ -13,8 +18,19 @@ function Footer() {
           Subscribe to our special newsletter 'Reflections' today and <br />
           get to know about the major projects The Mirror is working on.
         </p>
-        <div className="input-areas">
-          <form>
+        {/* <div className="input-areas"> */}
+        <Form layout="inline" className="newsletter-form" action="javascript:void(0);" method="POST">
+          <Form.Item>
+            <Input onChange={({ target }) => handleOnChangeEmail(target.value)} prefix={<UserOutlined />} placeholder="Email Address" value={email} />
+          </Form.Item>
+          <Form.Item>
+            <Button onClick={() => handleSendEmail(email)}
+              htmlType="submit" type="primary" disabled={!validator.isEmail(email)}>
+              Subscribe
+            </Button>
+          </Form.Item>
+        </Form>
+        {/* <form>
             <input
               className="footer-input"
               name="email"
@@ -30,11 +46,11 @@ function Footer() {
               <button type="button" class="btn btn-outline-light">
                 Subscribe
               </button>
-            </a>
+            </a> */}
 
-            {/* <Button buttonStyle="btn--outline">Subscribe</Button> */}
-          </form>
-        </div>
+        {/* <Button buttonStyle="btn--outline">Subscribe</Button> */}
+        {/* </form> */}
+        {/* </div> */}
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
