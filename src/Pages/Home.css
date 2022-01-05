@@ -47,3 +47,14 @@
   /* font-size: 35px; */
   color: hsl(7, 86%, 31%) 100%;
 }
+.sliderimg {
+  background-color: aliceblue;
+  width: 60%;
+  /* max-width: 95%; */
+  margin: 20px auto;
+  /* margin-left: 20px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+}

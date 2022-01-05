@@ -6,6 +6,13 @@ import HeroSection from "../components/HeroSection";
 import Cards from "../components/Cards";
 import Footer from "../components/Footer";
 import logo from "../images/mirror_Copy.png"
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
+
+import image1 from "../images/COUS1/one.jpg";
+import image2 from "../images/COUS1/two.jpg";
+import image3 from "../images/COUS1/three.jpg";
+import image4 from "../images/COUS1/4.jpg";
 
 function Home() {
   return (
@@ -21,6 +28,12 @@ function Home() {
           </p>
         </div>
       </div>
+      <AliceCarousel autoPlay autoPlayInterval="3000" fadeOutAnimation={true}>
+        <img src={image1} className="sliderimg" alt="" />
+        <img src={image2} className="sliderimg" alt="" />
+        <img src={image3} className="sliderimg" alt="" />
+        <img src={image4} className="sliderimg" alt="" />
+      </AliceCarousel>
       <Footer />
       {/* <mainSection /> */}
     </>
