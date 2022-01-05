@@ -7,30 +7,22 @@ import Cards from "../components/Cards";
 import Footer from "../components/Footer";
 import logo from "../images/mirror_Copy.png"
 import { ThumbDownSharp } from "@material-ui/icons";
-import Loading from "../Loading";
-import { apiUrl, notify } from "../helpers"
-import axios from "axios";
 
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: "",
-      loading: false
+      email: ""
     }
   }
-  handleOnChangeEmail = email => {
+  handleOnChangeEmail = email =>{
     this.setState({
       email: email
     })
   }
 
-  handleSendEmail = email => {
+  handleSendEmail = email =>{
     console.log(email);
-  }
-
-  handleLoadingState = loading => {
-    this.setState({ loading: loading });
   }
   render() {
     return (
@@ -46,10 +38,8 @@ class Home extends Component {
             </p>
           </div>
         </div>
-        {/* {this.state.loading */}
-        {/* ? <Loading message="Working on it..." /> */}
         <Footer email={this.state.email} handleOnChangeEmail={this.handleOnChangeEmail} handleSendEmail={this.handleSendEmail} />
-        {/* }<mainSection /> */}
+        {/* <mainSection /> */}
       </>
     );
   }
