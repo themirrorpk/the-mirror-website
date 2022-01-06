@@ -199,7 +199,7 @@ function Footer() {
           <small className="website-rights">The Mirror © 2021</small>
         </div>
         <div className="footer-subscription-text2">
-          <p>Developed by Maheen Khan & Rida Khan</p>
+          <p className="credits">Website developed by Maheen Khan & Rida Khan</p>
         </div>
       </section>
     </div>
