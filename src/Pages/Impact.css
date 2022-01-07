@@ -68,6 +68,8 @@ body{
   /* margin-left: 40px; */
   /* margin: 10%; */
   margin: 0%;
+  padding: 10px;
+  /* text-indent: 0%; */
 }
 .headerim {
   width: 50%;
