@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react";
-import { Button } from "./Button";
+// import React, { useState, useEffect } from "react";
+// import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./HeroSection.css";
 import "../App.css";
 import vid from "../images/mirrorTrailer2.mp4";
 
 function HeroSection() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [click, setClick] = useState(false);
+  // const [button, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  // const handleClick = () => setClick(!click);
+  // const closeMobileMenu = () => setClick(false);
   return (
     <div className="hero-container">
       <video src={vid} autoPlay loop muted />
