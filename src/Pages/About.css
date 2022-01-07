@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .about {
   /* font-family: OpenSans; */
   font-size: 5rem;
@@ -39,7 +42,7 @@
 }
 .mission {
   text-align: justify;
-  
+
   font-family: Lato;
   letter-spacing: 1px;
   line-height: 28px;
@@ -62,9 +65,8 @@
   margin-left: 5%;
 }
 
-.value-cont{
+.value-cont {
   margin-left: -5%;
-
 }
 .section {
   margin-top: -50px;
