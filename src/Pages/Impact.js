@@ -16,12 +16,12 @@ export default function Impact() {
         <h1 className="about"> Impact </h1>
       </div> */}
       <Header></Header>
-      <div class="row text-center">
-        <div className="container">
-          <div>
-            <img className="headerim" src={image} alt="" />
-            {/* <img src="../images"></img> */}
-          </div>
+      <div className="row-text-center">
+        <div className="container-impact">
+          {/* <div> */}
+          <img className="headerim" src={image} alt="" />
+          {/* <img src="../images"></img> */}
+          {/* </div> */}
           {/* <div>
             <text className="title"> Presidents </text>{" "}
           </div>
@@ -90,7 +90,6 @@ export default function Impact() {
               </Col>
             </Row>
           </Container>
-
           <Container class="row text-center">
             <Row md={4}>
               <Col>

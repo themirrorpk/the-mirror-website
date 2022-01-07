@@ -16,7 +16,6 @@ export default function Blogs() {
       <Header />
       {/* <h1 className="blogs"> BLOGS </h1> */}
       <Posts />
-
       <Footer />
     </>
   );
