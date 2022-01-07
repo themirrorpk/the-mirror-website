@@ -13,6 +13,7 @@ function HeroSection() {
   // const closeMobileMenu = () => setClick(false);
   return (
     <div className="hero-container">
+      
       <video src={vid} autoPlay loop muted />
 
       <h1> THE MIRROR PK </h1>

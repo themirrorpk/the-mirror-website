@@ -53,7 +53,7 @@ export default function Impact() {
         </div>
 
         <div class="grid">
-          <Container>
+          <Container style={{ "overflow-x": "hidden" }} >
             <Row md={4}>
               <Col>
                 {" "}
@@ -90,7 +90,8 @@ export default function Impact() {
               </Col>
             </Row>
           </Container>
-          <Container class="row text-center">
+          <div className="row-text-center">
+          <Container style={{ "overflow-x": "hidden" }}>
             <Row md={4}>
               <Col>
                 {" "}
@@ -128,6 +129,8 @@ export default function Impact() {
               </Col>
             </Row>
           </Container>
+          </div>
+          
         </div>
       </div>
       <Footer />
