@@ -180,8 +180,22 @@ color: #fff;
   .social-media-wrap {
     flex-direction: column;
   }
+  .yt{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .footer-container {
+    background-color: #931b0b;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
 }
 
-@media screen and (max-width: 768px) {
-} 
+/* @media screen and (max-width: 768px) {
+}  */
 

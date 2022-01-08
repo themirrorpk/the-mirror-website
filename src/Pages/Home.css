@@ -76,4 +76,32 @@ body {
     justify-content: space-around;
     overflow-x: hidden;
   }
+  .Why-text h3 {
+    text-align: left;
+    font-size: 23px;
+    margin-left: 20px;
+    color: #ea9999;
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 10px;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    /* font-family: "Open Sans", sans-serif; */
+  }
+  .Why-text p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    padding-right: 10px;
+    /* font-family: "Playfair Display", serif; */
+  
+    /* text-align: justify; */
+  }
 }
+
