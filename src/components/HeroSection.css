@@ -102,7 +102,11 @@ video {
     margin-top: -100px;
   }
   .hero-container > p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    text-align: center;
     font-size: 30px;
+    margin-top: 8px;
   }
   .btn-mobile {
     display: block;

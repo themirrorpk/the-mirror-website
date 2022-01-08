@@ -12,8 +12,10 @@ body {
   /* font-family: OpenSans; */
   font-size: 4rem;
   color: grey;
+  text-align: center;
+  margin-left: 5%;
   /* margin: 29px; */
-  /* margin-left: 10%; */
+  /* margin-left: 30%; */
 }
 .hero {
   /* background: url("./") center center/cover no-repeat; */
@@ -111,4 +113,56 @@ span {
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 45px;
+}
+@media screen and (max-width: 960px) {
+  .mission {
+    text-align: justify;
+    font-family: Lato;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-size: 18px;
+    /* width: 70%; */
+    /* margin-left: 20%; */
+  }
+  .values {
+    /* margin: 20px; */
+    padding: 20px;
+    font-family: Playfair;
+    font-size: 2.3rem;
+    color: #ea9999;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .about2 {
+    /* font-family: OpenSans; */
+    font-size: 3rem;
+    color: grey;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .About-text h1 {
+    color: #ea9999;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .About-text h5 {
+    color: #ea9999;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .About-text p {
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .founders img {
+    height: auto;
+    width: 250px;
+    padding-top: 10px;}
 }
