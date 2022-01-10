@@ -1,15 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import MailchimpFormContainer from "./mailchimpform";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+
 // import { Button } from "./Button";
 import "./Footer.css";
 function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
+        {/* <MailchimpFormContainer /> */}
+        Subscribe
+        <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
         {/* <p className="footer-subscription-heading">
           Join the Adventure newsletter to receive our best vacation deals
         </p> */}
-        <p className="footer-subscription-text">
+        {/* <p className="footer-subscription-text">
           Subscribe to our special newsletter 'Reflections' today and <br />
           get to know about the major projects The Mirror is working on.
         </p>
@@ -30,11 +36,11 @@ function Footer() {
               <button type="button" class="btn btn-outline-light">
                 Subscribe
               </button>
-            </a>
+            </a> */}
 
-            {/* <Button buttonStyle="btn--outline">Subscribe</Button> */}
-          </form>
-        </div>
+        {/* <Button buttonStyle="btn--outline">Subscribe</Button> */}
+        {/* </form> */}
+        {/* </div> */}
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
