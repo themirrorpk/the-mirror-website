@@ -10,16 +10,16 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         {/* <MailchimpFormContainer /> */}
-        Subscribe
+        <p className="footer-subscription-text">
+          Subscribe to our special newsletter 'Reflections' today and <br />
+          get to know about the major projects The Mirror is working on.
+        </p>
         <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
         {/* <p className="footer-subscription-heading">
           Join the Adventure newsletter to receive our best vacation deals
         </p> */}
-        {/* <p className="footer-subscription-text">
-          Subscribe to our special newsletter 'Reflections' today and <br />
-          get to know about the major projects The Mirror is working on.
-        </p>
-        <div className="input-areas">
+
+        {/* <div className="input-areas">
           <form>
             <input
               className="footer-input"
