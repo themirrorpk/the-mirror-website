@@ -109,9 +109,9 @@ figcaption {
 }
 
 .MainHeading {
-  font-size: 80px;
+  font-size: 60px;
   color: #ea9999;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin: 20px;
   text-align: center;
 }

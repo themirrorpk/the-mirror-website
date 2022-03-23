@@ -4,6 +4,8 @@ import "./Gallery.css";
 import Header from "../components/Header_event";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CloseIcon from "@material-ui/icons/Close";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 //COUS 1
 import img1 from "../images/COUS1/one.jpg";
@@ -228,7 +230,75 @@ export default function Gallery() {
     <>
       <Header />
       {/* <h1 className="MainHeading"> EVENTS GALLERY </h1> */}
-      <div className={model ? "model open" : "model"}>
+      <h2 className="MainHeading"> Colours of our Struggle </h2>
+      <AliceCarousel
+        autoPlay
+        autoPlayInterval="3000"
+        fadeOutAnimation={true}
+        autoHeight={true}
+        autoPlayStrategy="default"
+      >
+        <img src={img1} className="sliderimg" alt="" />
+        <img src={img2} className="sliderimg" alt="" />
+        <img src={img3} className="sliderimg" alt="" />
+        <img src={img4} className="sliderimg" alt="" />
+        <img src={img5} className="sliderimg" alt="" />
+        <img src={img6} className="sliderimg" alt="" />
+        <img src={img7} className="sliderimg" alt="" />
+        <img src={img8} className="sliderimg" alt="" />
+        <img src={img9} className="sliderimg" alt="" />
+        <img src={img10} className="sliderimg" alt="" />
+        <img src={img11} className="sliderimg" alt="" />
+        <img src={img12} className="sliderimg" alt="" />
+      </AliceCarousel>
+      <h2 className="MainHeading"> BGSP </h2>
+      <AliceCarousel
+        autoPlay
+        autoPlayInterval="3000"
+        fadeOutAnimation={true}
+        autoHeight={true}
+        autoPlayStrategy="default"
+      >
+        <img src={img13} className="sliderimg" alt="" />
+        <img src={img14} className="sliderimg" alt="" />
+        <img src={img15} className="sliderimg" alt="" />
+        <img src={img16} className="sliderimg" alt="" />
+        <img src={img17} className="sliderimg" alt="" />
+      </AliceCarousel>
+      <h2 className="MainHeading"> Internship'20 & Internship'21</h2>
+      <AliceCarousel
+        autoPlay
+        autoPlayInterval="3000"
+        fadeOutAnimation={true}
+        autoHeight={true}
+        autoPlayStrategy="default"
+      >
+        <img src={img18} className="sliderimg" alt="" />
+        <img src={img19} className="sliderimg" alt="" />
+        <img src={img20} className="sliderimg" alt="" />
+        <img src={img21} className="sliderimg" alt="" />
+        <img src={img22} className="sliderimg" alt="" />
+        <img src={img23} className="sliderimg" alt="" />
+        <img src={img24} className="sliderimg" alt="" />
+        <img src={img25} className="sliderimg" alt="" />
+      </AliceCarousel>
+
+      <h2 className="MainHeading"> Social Awareness Sessions </h2>
+      <AliceCarousel
+        autoPlay
+        autoPlayInterval="3000"
+        fadeOutAnimation={true}
+        autoHeight={true}
+        autoPlayStrategy="default"
+      >
+        <img src={img26} className="sliderimg" alt="" />
+        <img src={img27} className="sliderimg" alt="" />
+        <img src={img29} className="sliderimg" alt="" />
+        <img src={img30} className="sliderimg" alt="" />
+        <img src={img31} className="sliderimg" alt="" />
+        <img src={img32} className="sliderimg" alt="" />
+      </AliceCarousel>
+      {/* <div className={model ? "model open" : "model"}>
         <img src={tempimgsrc} alt="" />
         <CloseIcon onClick={() => setmodel(false)} />
       </div>
@@ -247,7 +317,7 @@ export default function Gallery() {
             </div>
           );
         })}
-      </div>
+      </div> */}
       <Footer />
     </>
   );

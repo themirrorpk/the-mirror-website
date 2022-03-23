@@ -52,6 +52,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <h1 className="about2"> The Mirror's Hall of Fame </h1>
         <section class="bg-light mt-5" id="team">
           <div class="container_ec">
             <div class="row text-center">
@@ -73,7 +74,7 @@ export default function About() {
                     Mahnoor Sarwar
                   </h4>
                   <h6 class="font-weight-bold blue-text my-3">
-                    General Secretary{" "}
+                    Executive Board 2021, General Secretary{" "}
                   </h6>
                   <p
                     class="font-weight-normal dark-grey-text"
@@ -82,13 +83,13 @@ export default function About() {
                       "justify-content": " space-around",
                     }}
                   >
-                    My name is Mahnoor and I am the General Secretary at The
+                    {/* My name is Mahnoor and I am the General Secretary at The
                     Mirror. As a member of executive board, I am responsible to
                     build synergy between three focal departments: legal and
                     corporate affairs, finance and external relations. Working
                     at The Mirror gives me a purpose and an opportunity of
                     making a small impact and do good. The mission is something
-                    very close to my heart.
+                    very close to my heart. */}
                   </p>
                 </div>
               </div>
@@ -105,7 +106,7 @@ export default function About() {
                     Shahrukh Khan
                   </h4>
                   <h6 class="font-weight-bold blue-text my-3">
-                    Managing Director
+                    Executive Board 2021, Managing Director
                   </h6>
                   <p
                     class="font-weight-normal dark-grey-text"
@@ -114,7 +115,7 @@ export default function About() {
                       "justify-content": " space-around",
                     }}
                   >
-                    My name is Shahrukh Mujahid Khan and I am the Managing
+                    {/* My name is Shahrukh Mujahid Khan and I am the Managing
                     Director at The Mirror. Being a member of the Executive
                     Board, it is my responsibility to ensure that the management
                     of the entire Directorate, work in a close environment with
@@ -122,9 +123,10 @@ export default function About() {
                     organization are working in a streamlined manner; to name a
                     few. It is to bridge gaps and bring about everyone in a
                     unified whole, and make certain that the ideals of the
-                    organization are upheld to the highest virtue!
+                    organization are upheld to the highest virtue! */}
                     {/* The Mirror presents an environment and atmosphere that encourages personal change, growth and successes. While it works to fight the good fight, it actively advocates to have every individual feel as comfortable, as welcomed, and as heard as one can be. It promotes the engagement in healthy discussions, dialogues and discourse necessary to allow and help people understand, learn and unlearn any toxic behavior or attitude in their personality. */}
                   </p>
+                  
                 </div>
               </div>
 
@@ -141,9 +143,9 @@ export default function About() {
                     Maham Fazal
                   </h4>
                   <h6 class="font-weight-bold blue-text my-3">
-                    Administrative Coordinator
+                    Executive Board 2021, Administrative Coordinator
                   </h6>
-                  <p
+                  {/* <p
                     class="font-weight-normal dark-grey-text"
                     style={{
                       "font-size": "13px",
@@ -156,7 +158,7 @@ export default function About() {
                     throughout my journey here. The Mirror truly groomed me both
                     professionally and personally. Currently I am looking over
                     Human Resources, Publications, Photography and Social Media.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

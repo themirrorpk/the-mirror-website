@@ -22,7 +22,7 @@ export default function Contact() {
           <div>
             <text className="contact"> themirrorpakistan@gmail.com </text>{" "}
           </div>
-          <div>
+          {/* <div>
             {" "}
             <text className="title">Managing Director </text>{" "}
           </div>
@@ -42,7 +42,7 @@ export default function Contact() {
           </div>
           <div>
             <text className="contact">mahnoor.mirror@gmail.com </text>
-          </div>
+          </div> */}
           <div></div>
         </div>
       </div>
