@@ -17,7 +17,7 @@ export default function Contact() {
       <div class="row text-center">
         <div className="container">
           <div>
-            <text className="title"> Presidents </text>{" "}
+            <text className="title"> Email us </text>{" "}
           </div>
           <div>
             <text className="contact"> themirrorpakistan@gmail.com </text>{" "}

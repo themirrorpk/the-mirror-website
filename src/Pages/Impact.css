@@ -1,4 +1,4 @@
-body{
+body {
   overflow-x: hidden;
 }
 .hero {
@@ -114,7 +114,8 @@ body{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 0.9rem;
-    text-justify: center;
+    text-indent: -1px;
+    /* text-justify: center; */
     /* margin-left: 40px; */
     /* margin: 10%; */
     margin: 0%;

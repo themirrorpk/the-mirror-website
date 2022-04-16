@@ -251,7 +251,7 @@ export default function Gallery() {
         <img src={img11} className="sliderimg" alt="" />
         <img src={img12} className="sliderimg" alt="" />
       </AliceCarousel>
-      <h2 className="MainHeading"> BGSP </h2>
+      <h2 className="MainHeading"> Brown Girls Support Program </h2>
       <AliceCarousel
         autoPlay
         autoPlayInterval="3000"

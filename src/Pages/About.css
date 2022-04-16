@@ -97,7 +97,7 @@ body {
   margin-bottom: 20px;
 }
 .About-text h5 {
-  color: #ea9999;
+  color: #931b0b;
   font-size: 25px;
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -164,5 +164,6 @@ span {
   .founders img {
     height: auto;
     width: 250px;
-    padding-top: 10px;}
+    padding-top: 10px;
+  }
 }

@@ -36,7 +36,7 @@ export default function About() {
             <div className="About-text">
               <h1 className="heading-f">Founders</h1>
               <h5 className="names">
-                Faryal Ashfaq <span> & Eisha Mehtab </span>
+                Faryal Ashfaq & Eisha Mehtab
               </h5>
               <p>
                 The Mirror was founded by Faryal Ashfaq and Eisha Mehtab in 2017
@@ -44,7 +44,7 @@ export default function About() {
                 about the plight of women in our country. Our experiences in a
                 patriarchal Pakistan made us recognise the need of a platform
                 that allows femmes everywhere to feel empowered, mobilised, and
-                safe.The Mirror serves and will always continue to serve as a
+                safe. The Mirror serves and will always continue to serve as a
                 symbol of reflection, not only for our community but for
                 ourselves, where we strive to become better versions of
                 ourselves every single day.
@@ -126,7 +126,7 @@ export default function About() {
                     organization are upheld to the highest virtue! */}
                     {/* The Mirror presents an environment and atmosphere that encourages personal change, growth and successes. While it works to fight the good fight, it actively advocates to have every individual feel as comfortable, as welcomed, and as heard as one can be. It promotes the engagement in healthy discussions, dialogues and discourse necessary to allow and help people understand, learn and unlearn any toxic behavior or attitude in their personality. */}
                   </p>
-                  
+
                 </div>
               </div>
 

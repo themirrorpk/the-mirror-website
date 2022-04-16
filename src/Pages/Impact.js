@@ -72,7 +72,7 @@ export default function Impact() {
                 </div>
                 <div>
                   <text className="contact">
-                    BGSP - Successful group therapy sessions with 25 women{" "}
+                    Brown Girls Support Program - Support group therapy sessions with licensed psychologists for femmes.{" "}
                   </text>{" "}
                 </div>
               </Col>
@@ -91,46 +91,46 @@ export default function Impact() {
             </Row>
           </Container>
           <div className="row-text-center">
-          <Container style={{ "overflow-x": "hidden" }}>
-            <Row md={4}>
-              <Col>
-                {" "}
-                <div>
-                  <text className="title"> Financial </text>{" "}
-                </div>
-                <div>
-                  <text className="contact">
-                    Project Hayat: 2 successful cases so far
-                  </text>{" "}
-                </div>
-              </Col>
-              <Col xs={6}>
-                <div>
-                  <text className="title"> Legal </text>{" "}
-                </div>
-                <div>
-                  <text className="contact">
-                    Pro Bono Legal Aid (In development), Harassment Hotline (In
-                    development)
-                  </text>{" "}
-                </div>
-              </Col>
-              <Col>
-                <div>
-                  <text className="title"> Educational </text>{" "}
-                </div>
-                <div>
-                  <text className="contact">
-                    {" "}
-                    Aurat Beyond the Bar, Video Campaigns, School Awareness
-                    sessions, Consent Education Curriculum (In development){" "}
-                  </text>{" "}
-                </div>
-              </Col>
-            </Row>
-          </Container>
+            <Container style={{ "overflow-x": "hidden" }}>
+              <Row md={4}>
+                <Col>
+                  {" "}
+                  <div>
+                    <text className="title"> Financial </text>{" "}
+                  </div>
+                  <div>
+                    <text className="contact">
+                      Project Hayat: 2 successful cases so far
+                    </text>{" "}
+                  </div>
+                </Col>
+                <Col xs={6}>
+                  <div>
+                    <text className="title"> Legal </text>{" "}
+                  </div>
+                  <div>
+                    <text className="contact">
+                      Pro Bono Legal Aid (In development), Harassment Hotline (In
+                      development)
+                    </text>{" "}
+                  </div>
+                </Col>
+                <Col>
+                  <div>
+                    <text className="title"> Educational </text>{" "}
+                  </div>
+                  <div>
+                    <text className="contact">
+
+                      Aurat Beyond the Bar, Video Campaigns, School Awareness
+                      sessions, Consent Education Curriculum (In development)
+                    </text>{" "}
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           </div>
-          
+
         </div>
       </div>
       <Footer />
