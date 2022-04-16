@@ -3,7 +3,7 @@ import "../App.css";
 import "./Gallery.css";
 import Header from "../components/Header_event";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CloseIcon from "@material-ui/icons/Close";
+// import CloseIcon from "@material-ui/icons/Close";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
@@ -43,7 +43,7 @@ import img25 from "../images/Internship/8.jpg";
 //Social Awareness
 import img26 from "../images/SocialAwareness/1.jpg";
 import img27 from "../images/SocialAwareness/2.jpg";
-import img28 from "../images/SocialAwareness/3.jpg";
+// import img28 from "../images/SocialAwareness/3.jpg";
 import img29 from "../images/SocialAwareness/4.jpg";
 import img30 from "../images/SocialAwareness/5.jpg";
 import img31 from "../images/SocialAwareness/6.jpg";
@@ -53,179 +53,179 @@ import img32 from "../images/SocialAwareness/7.jpg";
 // import img34 from "../images/SocialAwareness/7.jpg";
 // import img35 from "../images/SocialAwareness/7.jpg";
 
-import { useState } from "react";
+// import { useState } from "react";
 import Footer from "../components/Footer";
 
 export default function Gallery() {
-  let data = [
-    {
-      id: 1,
-      imgSrc: img1,
-      caption: "Colours of our Struggle ",
-    },
-    {
-      id: 2,
-      imgSrc: img2,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 3,
-      imgSrc: img3,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 4,
-      imgSrc: img4,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 5,
-      imgSrc: img5,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 6,
-      imgSrc: img6,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 7,
-      imgSrc: img7,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 8,
-      imgSrc: img8,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 9,
-      imgSrc: img9,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 10,
-      imgSrc: img10,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 11,
-      imgSrc: img11,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 12,
-      imgSrc: img12,
-      caption: "Colours of our Struggle",
-    },
-    {
-      id: 13,
-      imgSrc: img13,
-      caption: "BGSP",
-    },
-    {
-      id: 14,
-      imgSrc: img14,
-      caption: "BGSP",
-    },
-    {
-      id: 15,
-      imgSrc: img15,
-      caption: "BGSP",
-    },
-    {
-      id: 16,
-      imgSrc: img16,
-      caption: "BGSP",
-    },
-    {
-      id: 17,
-      imgSrc: img17,
-      caption: "BGSP",
-    },
-    {
-      id: 18,
-      imgSrc: img18,
-      caption: "Internship'20",
-    },
-    {
-      id: 19,
-      imgSrc: img19,
-      caption: "Internship'20",
-    },
-    {
-      id: 20,
-      imgSrc: img20,
-      caption: "Internship'21",
-    },
-    {
-      id: 21,
-      imgSrc: img21,
-      caption: "Internship'21",
-    },
-    {
-      id: 22,
-      imgSrc: img22,
-      caption: "Internship'21",
-    },
-    {
-      id: 23,
-      imgSrc: img23,
-      caption: "Internship'21",
-    },
-    {
-      id: 24,
-      imgSrc: img24,
-      caption: "Internship'21",
-    },
-    {
-      id: 25,
-      imgSrc: img25,
-      caption: "Internship'21",
-    },
-    {
-      id: 26,
-      imgSrc: img26,
-      caption: "Social Awareness Sessions",
-    },
-    {
-      id: 27,
-      imgSrc: img27,
-      caption: "Social Awareness Sessions",
-    },
-    {
-      id: 28,
-      imgSrc: img28,
-      caption: "Social Awareness Sessions",
-    },
-    {
-      id: 29,
-      imgSrc: img29,
-      caption: "Social Awareness Sessions",
-    },
-    {
-      id: 30,
-      imgSrc: img30,
-      caption: "Social Awareness Sessions",
-    },
-    {
-      id: 31,
-      imgSrc: img31,
-      caption: "Social Awareness Sessions",
-    },
-    {
-      id: 32,
-      imgSrc: img32,
-      caption: "Social Awareness Sessions",
-    },
-  ];
-  const [model, setmodel] = useState(false);
-  const [tempimgsrc, settempimgsrc] = useState("");
+  // let data = [
+  //   {
+  //     id: 1,
+  //     imgSrc: img1,
+  //     caption: "Colours of our Struggle ",
+  //   },
+  //   {
+  //     id: 2,
+  //     imgSrc: img2,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 3,
+  //     imgSrc: img3,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 4,
+  //     imgSrc: img4,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 5,
+  //     imgSrc: img5,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 6,
+  //     imgSrc: img6,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 7,
+  //     imgSrc: img7,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 8,
+  //     imgSrc: img8,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 9,
+  //     imgSrc: img9,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 10,
+  //     imgSrc: img10,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 11,
+  //     imgSrc: img11,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 12,
+  //     imgSrc: img12,
+  //     caption: "Colours of our Struggle",
+  //   },
+  //   {
+  //     id: 13,
+  //     imgSrc: img13,
+  //     caption: "BGSP",
+  //   },
+  //   {
+  //     id: 14,
+  //     imgSrc: img14,
+  //     caption: "BGSP",
+  //   },
+  //   {
+  //     id: 15,
+  //     imgSrc: img15,
+  //     caption: "BGSP",
+  //   },
+  //   {
+  //     id: 16,
+  //     imgSrc: img16,
+  //     caption: "BGSP",
+  //   },
+  //   {
+  //     id: 17,
+  //     imgSrc: img17,
+  //     caption: "BGSP",
+  //   },
+  //   {
+  //     id: 18,
+  //     imgSrc: img18,
+  //     caption: "Internship'20",
+  //   },
+  //   {
+  //     id: 19,
+  //     imgSrc: img19,
+  //     caption: "Internship'20",
+  //   },
+  //   {
+  //     id: 20,
+  //     imgSrc: img20,
+  //     caption: "Internship'21",
+  //   },
+  //   {
+  //     id: 21,
+  //     imgSrc: img21,
+  //     caption: "Internship'21",
+  //   },
+  //   {
+  //     id: 22,
+  //     imgSrc: img22,
+  //     caption: "Internship'21",
+  //   },
+  //   {
+  //     id: 23,
+  //     imgSrc: img23,
+  //     caption: "Internship'21",
+  //   },
+  //   {
+  //     id: 24,
+  //     imgSrc: img24,
+  //     caption: "Internship'21",
+  //   },
+  //   {
+  //     id: 25,
+  //     imgSrc: img25,
+  //     caption: "Internship'21",
+  //   },
+  //   {
+  //     id: 26,
+  //     imgSrc: img26,
+  //     caption: "Social Awareness Sessions",
+  //   },
+  //   {
+  //     id: 27,
+  //     imgSrc: img27,
+  //     caption: "Social Awareness Sessions",
+  //   },
+  //   {
+  //     id: 28,
+  //     imgSrc: img28,
+  //     caption: "Social Awareness Sessions",
+  //   },
+  //   {
+  //     id: 29,
+  //     imgSrc: img29,
+  //     caption: "Social Awareness Sessions",
+  //   },
+  //   {
+  //     id: 30,
+  //     imgSrc: img30,
+  //     caption: "Social Awareness Sessions",
+  //   },
+  //   {
+  //     id: 31,
+  //     imgSrc: img31,
+  //     caption: "Social Awareness Sessions",
+  //   },
+  //   {
+  //     id: 32,
+  //     imgSrc: img32,
+  //     caption: "Social Awareness Sessions",
+  //   },
+  // ];
+  // const [model, setmodel] = useState(false);
+  // const [tempimgsrc, settempimgsrc] = useState("");
 
-  const getimg = (imgsrc) => {
-    settempimgsrc(imgsrc);
-    setmodel(true);
-  };
+  // const getimg = (imgsrc) => {
+  //   settempimgsrc(imgsrc);
+  //   setmodel(true);
+  // };
   return (
     <>
       <Header />
