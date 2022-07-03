@@ -27,16 +27,12 @@ function Home() {
             The meaning behind our <span>name</span> and <span>logo</span>
           </h3>
           <p>
-            The Mirror's name and logo symbolises looking inside a mirror, quite
-            literally, to really see who you are. It was named that because we
-            wanted people to see their own reflections, question who they are
-            and the choices they make. The name is supposed to inspire a sense
-            of self-awareness to look within and do what's right. It can be seen
-            in many perspectives, but we keep the lens focused on all the
-            abusers and we command them to become human, see what their actions
-            can cause and put an end to their henious acts once and for all. Its
-            the power of the mind to realize problems and then fight to make it
-            right.
+            The Mirror's name is a metaphorical symbol that compels one to
+            reflect: if they are a perpetrator, reflect on their heinous
+            behavior, if they are a bystander, reflect on their complacency. The
+            Mirror encourages just about everyone to critically think about
+            their actions and how they influence the world around them. It
+            demands self-awareness leading to social change.
           </p>
         </div>
       </div>
