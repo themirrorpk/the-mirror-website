@@ -202,7 +202,7 @@ function Footer() {
               <i className="fab fa-linkedin" />
             </Link> */}
           </div>
-          <small className="website-rights">The Mirror © 2021</small>
+          <small className="website-rights">The Mirror © 2022</small>
         </div>
         <div className="footer-subscription-text2">
           <p className="credits">Website developed by Maheen Khan & Rida Khan</p>
